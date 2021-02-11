@@ -1,0 +1,30 @@
+.dub
+docs.json
+__dummy.html
+docs/
+out/
+/km-engine
+libkm-engine.so
+libkm-engine.dylib
+libkm-engine.a
+km-engine.dll
+km-engine.lib
+libkm-engine-test-*
+*.zip
+*.exe
+*.o
+*.obj
+*.lst
+*.*~
+dub.selections.json
+log.txt
+
+# Ignore vscode stuff
+launch.json
+
+# Ignore game source
+game/
+
+# LDC2 support should not be here since it is inefficient for DMD compilation
+libs/angelscript.lib
+libs/as_c.lib
